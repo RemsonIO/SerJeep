@@ -1,8 +1,11 @@
 package iacjeep.com.serjeep;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -21,8 +24,6 @@ public class Jeep extends FragmentActivity {
        // Button getDirection = (Button)findViewById(R.id.getDirection);//button now is an object
 
 
-
-
     }
 
     @Override
@@ -31,7 +32,11 @@ public class Jeep extends FragmentActivity {
         //setUpMapIfNeeded();
     }
 
-    
+    public void onClick_getDirections(View view){
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        EditText text_menu = (EditText) findViewById(R.id.text_Menu);
+        
+    }
 
 
 
