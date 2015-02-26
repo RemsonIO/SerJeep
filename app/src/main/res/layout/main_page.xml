@@ -1,41 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center|top"
+    android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Menu"
-            android:id="@+id/text_Menu"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/getDirection"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="80dp"
-            android:text="Get Directions"
-            android:onClick="onClick_getDirections" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="SerJeep"
+        android:id="@+id/serjeep_name"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/material_blue_grey_800"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Get jeep route"
+        android:id="@+id/getJeepRoute"
+        android:onClick="onClick_getJeepRoute"
+        />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Submit a Route"
-            android:id="@+id/submitRoute"
-            android:layout_marginTop="89dp"
-            android:singleLine="false"
-            android:nestedScrollingEnabled="false"
-            android:onClick="onClick_submit"
-            android:longClickable="false"
-            android:layout_below="@+id/getDirection"
-            android:layout_alignLeft="@+id/getDirection"
-            android:layout_alignStart="@+id/getDirection" />
-    </RelativeLayout>
+
+
+
 </LinearLayout>

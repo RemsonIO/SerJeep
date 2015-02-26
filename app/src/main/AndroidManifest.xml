@@ -34,6 +34,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".mapJeep"
+            android:label="Map to be Used"
+            android:theme="@style/AppTheme"/>
+
+
     </application>
 
 </manifest>
