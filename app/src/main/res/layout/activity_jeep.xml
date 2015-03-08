@@ -10,6 +10,7 @@
     android:orientation="vertical">
 
     <Button
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go Back"
@@ -17,15 +18,19 @@
         android:onClick="onClick_goBack"
         android:padding="20dp"/>
 
-<fragment
+
+    <fragment
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     android:id="@+id/map"
     tools:context=".mapJeep"
-    android:name="com.google.android.gms.maps.SupportMapFragment" />
+    android:name="com.google.android.gms.maps.SupportMapFragment"
 
+    />
 
 
 
 </LinearLayout>
+
+    <Menu

@@ -3,5 +3,10 @@
 
     <string name="app_name">SerJeep</string>
     <string name="title_activity_jeep">JeepMap</string>
+    <string name="get_jeep_route_text">Get jeep route</string>
+    <string name="serjeep_title_text">SerJeep</string>
+    <string name="view_jeep_routes_text">View Jeep Routes</string>
+    <string name="send_route_text">Send Route</string>
+    <string name="close_text">Close</string>
 
 </resources>

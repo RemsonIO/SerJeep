@@ -25,12 +25,24 @@ public class Jeep extends Activity {
         super.onResume();
 
     }
+    //
+    public void onClick_viewJeepRoutes(View view){
 
+    }
+    //
     public void onClick_getJeepRoute(View view){
         Intent getIntent = new Intent(this,mapJeep.class);
         final int result = 1;
         startActivity(getIntent);
     }
 
+    //
+    public void onClick_sendRoute(View view) {
 
+
+    }
+    //
+    public void onClick_close(View view) {
+        finish();
+    }
 }
