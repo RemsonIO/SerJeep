@@ -41,13 +41,6 @@ public class mapJeep extends FragmentActivity{
             }
         }
     }
-
-    /**
-     * This is where we can add markers or lines, add listeners or move the camera. In this case, we
-     * just add a marker near Africa.
-     * <p/>
-     * This should only be called once and when we are sure that {@link #mMap} is not null.
-     */
     private void setUpMap() {
         mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
     }
@@ -58,5 +51,7 @@ public class mapJeep extends FragmentActivity{
         final int result = 1;
         startActivity(goBackIntent);
     }
+
+
 
 }

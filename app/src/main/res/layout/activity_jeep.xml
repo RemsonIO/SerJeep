@@ -15,12 +15,12 @@
         android:text="Go Back"
         android:id="@+id/goBack"
         android:onClick="onClick_goBack"
-        android:layout_marginBottom="90dp"
         android:padding="20dp"/>
 
 <fragment
-    android:layout_width="400dp"
-    android:layout_height="300dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
     android:id="@+id/map"
     tools:context=".mapJeep"
     android:name="com.google.android.gms.maps.SupportMapFragment" />
