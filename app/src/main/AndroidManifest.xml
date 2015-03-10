@@ -39,8 +39,9 @@
         <activity android:name=".mapJeep"
             android:label="Map to be Used"
             android:theme="@style/AppTheme"/>
-
-
+        <activity android:name=".ViewJeepRoutes"
+            android:label="@string/view_jeep_routes_text"
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

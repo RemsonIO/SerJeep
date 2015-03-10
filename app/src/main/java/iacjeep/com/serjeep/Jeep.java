@@ -16,8 +16,6 @@ public class Jeep extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_page);
-
-
     }
 
     @Override
@@ -27,6 +25,9 @@ public class Jeep extends Activity {
     }
     //
     public void onClick_viewJeepRoutes(View view){
+        Intent getIntent = new Intent(this,ViewJeepRoutes.class);
+        final int result = 1;
+        startActivity(getIntent);
 
     }
     //
@@ -44,5 +45,6 @@ public class Jeep extends Activity {
     //
     public void onClick_close(View view) {
         finish();
+        System.exit(1);
     }
 }

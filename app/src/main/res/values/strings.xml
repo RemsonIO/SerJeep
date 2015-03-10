@@ -8,5 +8,15 @@
     <string name="view_jeep_routes_text">View Jeep Routes</string>
     <string name="send_route_text">Send Route</string>
     <string name="close_text">Close</string>
+    <string name="view_routes_title_text">Makati City Available Routes</string>
 
+    <string-array name="makati_transit">
+        <item>Ayala-Mantrade</item>
+        <item>Ayala-Pateros</item>
+        <item>Ayala-Washington</item>
+        <item>Ayala-Zapote</item>
+        <item>Ayala-Loop</item>
+        <item>BelAir-Washington</item>
+    </string-array>
+    
 </resources>
