@@ -25,8 +25,17 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/flagAsInaccurate"
+        android:text="@string/flag_as_inaccurate_button"
+        android:layout_gravity="left"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="onClick_goBack"
         android:text="Go Back"
         android:layout_gravity="bottom|center"
         />
+
 </LinearLayout>
