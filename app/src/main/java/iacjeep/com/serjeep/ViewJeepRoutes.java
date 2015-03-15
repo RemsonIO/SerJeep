@@ -42,6 +42,7 @@ public class ViewJeepRoutes extends Activity implements AdapterView.OnItemSelect
     public void onClick_goBack(View view) {
         Intent goBackIntent = new Intent(this,Jeep.class);
         final int result = 1;
+        this.finishActivity(result);
         startActivity(goBackIntent);
     }
 }
