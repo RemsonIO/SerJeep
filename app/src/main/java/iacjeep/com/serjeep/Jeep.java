@@ -43,8 +43,15 @@ public class Jeep extends Activity {
 
     }
     //
+    public void onClick_rateOurApp(View view){
+        
+    }
+
+    //
     public void onClick_close(View view) {
         finish();
         System.exit(1);
     }
+
+
 }

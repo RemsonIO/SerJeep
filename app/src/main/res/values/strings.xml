@@ -10,6 +10,7 @@
     <string name="close_text">Close</string>
     <string name="view_routes_title_text">Makati City Available Routes</string>
     <string name="flag_as_inaccurate_button">Flag as Inaccurate</string>
+    <string name="rate_our_app_button">Rate our App!</string>
 
     <string-array name="makati_transit">
         <item>Ayala-Mantrade</item>
