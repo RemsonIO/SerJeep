@@ -1,5 +1,6 @@
 package iacjeep.com.serjeep;
 
+<<<<<<< HEAD
         import java.io.InputStream;
         import java.util.ArrayList;
 
@@ -20,6 +21,32 @@ package iacjeep.com.serjeep;
 
         import android.content.Context;
         import android.util.Log;
+=======
+/* created by this guy
+ http://stackoverflow.com/questions/14495030/get-driving-directions-using-google-maps-api-v2/15053901#15053901 */
+
+
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.protocol.BasicHttpContext;
+import org.apache.http.protocol.HttpContext;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import com.google.android.gms.maps.model.LatLng;
+
+import android.content.Context;
+import android.util.Log;
+>>>>>>> parent of df70d0b... direction added
 
 public class GMapV2Direction {
     public final static String MODE_DRIVING = "driving";
